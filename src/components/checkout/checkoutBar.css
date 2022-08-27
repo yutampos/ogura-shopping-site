@@ -1,0 +1,13 @@
+hr {
+    height: 0px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 92%);
+    
+}
+.titleOrverWrap {
+    max-width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1
+}
