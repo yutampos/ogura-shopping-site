@@ -18,7 +18,7 @@ root.render(
         <Auth0Provider
           domain="ogura-shop-test.jp.auth0.com"
           clientId="ZpffmE8M5DOu8H1znlhml2UJ4Odk8DAf"
-          redirectUri="http://localhost:3000/"
+          redirectUri="https://www.ogura-shop.com/"
           // onRedirectCallback={onRedirectCallback}
           cacheLocation="localstorage"
         >
