@@ -25,6 +25,7 @@ import {
 } from "../../store/action/customerAction";
 import { editCustomerData } from "../../services/rest-api-service/dataBaseRequest";
 import "./accountDetail.css";
+import { baseURL } from "../../services/httpCommon";
 
 export default function AccountDetail() {
   const { user, isAuthenticated } = useAuth0();
@@ -72,7 +73,6 @@ export default function AccountDetail() {
     }
   };
 
-  const baseURL = "http://localhost:8080/api";
   function pushCustomerData(data) {
     axios.post(baseURL + "/edit-customer", {
       userId: "google-oauth2|103257819196616223761",

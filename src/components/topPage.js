@@ -20,6 +20,7 @@ import { MenuList } from "@mui/material";
 import { MenuItem } from "@mui/material";
 
 import TopBanner, { topBannerDetail } from "./top-banner/topBanner";
+import { baseURL } from "../services/httpCommon";
 
 const theme = createTheme();
 
@@ -36,8 +37,6 @@ export default function Album() {
   localStorage.setItem(Number, JSON.stringify(countData));
 
   const [item, setItem] = React.useState(null);
-
-  const baseURL = "http://localhost:8080/api";
 
   // const idBoolean = (id) => {
   //   return countData.some((data) => data.id === id);

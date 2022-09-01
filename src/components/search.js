@@ -19,6 +19,7 @@ import Link from "@mui/material/Link";
 import { useParams } from "react-router-dom";
 import { MenuList } from "@mui/material";
 import { MenuItem } from "@mui/material";
+import { baseURL } from "../services/httpCommon";
 
 const theme = createTheme();
 
@@ -26,8 +27,6 @@ export default function Album() {
   const Params = useParams();
 
   const [item, setItem] = React.useState(null);
-
-  const baseURL = "http://localhost:8080/api";
 
   React.useEffect(() => {
     axios

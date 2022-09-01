@@ -4,12 +4,13 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Navigation, Pagination, Virtual } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { baseURL } from "../../../services/httpCommon";
 import ItemCard from "./itemCard";
 import ItemsCard from "./itemCard";
 
 const SlidesView = (props) => {
   const [item, setItem] = useState(null);
-  const baseURL = "http://localhost:8080/api";
+
   useEffect(() => {
     axios
       .get(baseURL + props)

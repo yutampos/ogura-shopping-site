@@ -9,6 +9,7 @@ import axios from "axios";
 import { cartPriceSum } from "../../../store/price-sum/calculation";
 import { DeliveryFeeCalcu } from "../checkout-sum/calculation";
 import { useAuth0 } from "@auth0/auth0-react";
+import { baseURL } from "../../../services/httpCommon";
 
 export default function NextButton(props) {
   const checkoutData = useSelector((state) => state.checkoutReducer);
@@ -67,7 +68,6 @@ export default function NextButton(props) {
   //   setCheckToExistCheckoutData(existDataDisabled());
   // }, [checkoutData]);
 
-  const baseURL = "http://localhost:8080/api";
   const [cartList, setCartList] = useState(null);
 
   const { user, isAuthenticated } = useAuth0();

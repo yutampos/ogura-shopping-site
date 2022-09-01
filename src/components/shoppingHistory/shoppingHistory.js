@@ -4,6 +4,7 @@ import { Typography } from "@mui/material";
 import { Grid } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { baseURL } from "../../services/httpCommon";
 
 import { getOrderHistory } from "../../services/rest-api-service/dataBaseRequest";
 import HistoryCard from "./historyCard";
@@ -11,8 +12,6 @@ import HistoryCard from "./historyCard";
 export default function ShoppingHistry() {
   const { user, isAuthenticated } = useAuth0();
   const [data, setData] = useState([]);
-
-  const baseURL = "http://localhost:8080/api";
 
   useEffect(() => {
     if (isAuthenticated === true) {

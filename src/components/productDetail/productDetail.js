@@ -5,6 +5,7 @@ import axios from "axios";
 import React from "react";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
+import { baseURL } from "../../services/httpCommon";
 import AddCommentCard from "./comment/addCommentCard";
 import CommentCard from "./comment/comment";
 import ImageView from "./imageCard/imageView";
@@ -13,7 +14,7 @@ import ProductInfo from "./productInfo/productInfo";
 const ProductDetail = () => {
   const { isAuthenticated } = useAuth0();
   const Params = useParams();
-  const baseURL = "http://localhost:8080/api/item";
+
   const [item, setItem] = React.useState({
     itemId: "",
     taxId: "",

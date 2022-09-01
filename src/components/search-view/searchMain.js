@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { baseURL } from "../../services/httpCommon";
 import SearchView from "./searchView";
 import SideBar from "./sideBar";
 
@@ -12,8 +13,6 @@ const SearchMain = () => {
   const Params = useParams();
 
   const [items, setItems] = useState(null);
-
-  const baseURL = "http://localhost:8080/api";
 
   const paramSearchValue = Params.groupId + "/" + Params.name;
   console.log(paramSearchValue);
