@@ -25,7 +25,7 @@ const ProductDetail = () => {
   });
   React.useEffect(() => {
     axios
-      .get(baseURL + "/" + Params.itemId)
+      .get(baseURL + "/item/" + Params.itemId)
       .then((response) => {
         // handle success(axiosの処理が成功した場合に処理させたいことを記述)
         // console.log(response);

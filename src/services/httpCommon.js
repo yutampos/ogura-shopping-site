@@ -1,1 +1,1 @@
-export const baseURL = "http://54.168.146.156:8080/api";
+export const baseURL = "https://www.ogura-service.link/api";
