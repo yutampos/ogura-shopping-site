@@ -19,7 +19,7 @@ Java（SpringBoot)
 
 <image src="https://i.gyazo.com/9bbbb2b58c4d1a2b70b1efecc48be7be.png" alt="" />
  
-AWSからHerokuに移行中。リンク切れています。
+AWSからHerokuに移行中（請求が高い為）。リンク切れています。
 www.ogura-shop.com
 
 
