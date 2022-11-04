@@ -1,19 +1,19 @@
-#オグラショッピングサイト
+# オグラショッピングサイト
 
-・技術選定
-  フロントエンド
-  	node.js
-		react
-  バックエンド
-    Java（SpringBoot)
-		  mybatis
-		  lombok
-		  validation
-  DB
-    MySQL
+・技術選定.\
+  フロントエンド.\
+  	node.js.\
+		react.\
+  バックエンド.\
+    Java（SpringBoot).\
+		  mybatis.\
+		  lombok.\
+		  validation.\
+  DB.\
+    MySQL.\
 
-・使用外部API
-	ZipCloud検索API
+・使用外部API.\
+	ZipCloud検索API.\
   
  画像はこちら
  
