@@ -1,3 +1,26 @@
+#オグラショッピングサイト
+
+・技術選定
+  フロントエンド
+  	node.js
+		react
+  バックエンド
+    Java（SpringBoot)
+		  mybatis
+		  lombok
+		  validation
+  DB
+    MySQL
+
+・使用外部API
+	ZipCloud検索API
+  
+ 画像はこちら
+ 
+ <image src="https://images.wantedly.com/i/gqTWKdW" alt="" />
+
+<image src="https://i.gyazo.com/9bbbb2b58c4d1a2b70b1efecc48be7be.png" alt="" />
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
