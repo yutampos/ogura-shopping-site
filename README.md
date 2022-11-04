@@ -1,11 +1,11 @@
 # オグラショッピングサイト
 
 ### フロントエンド
-Node.js
-React.js
+	Node.js
+	React.js
 ### バックエンド
-Java（SpringBoot)
-(MyBatis・lombok・validation)
+	Java（SpringBoot)
+	(MyBatis・lombok・validation)
 ### DB
     MySQL
 
