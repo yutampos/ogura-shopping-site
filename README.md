@@ -2,13 +2,11 @@
 
 ### 技術選定
 ### フロントエンド
-	node.js
-	react
+Node.js
+React.js
 ### バックエンド
-    Java（SpringBoot)
-		  mybatis
-		  lombok
-		  validation
+Java（SpringBoot)
+(MyBatis・lombok・validation)
 ### DB
     MySQL
 
